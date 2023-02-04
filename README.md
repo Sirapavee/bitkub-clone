@@ -13,3 +13,4 @@ Access this site I hosted on Vercel
 -----------------------------------
 1. Here is the [Link to the website](https://bitkub-clone-a9acukhzh-sirapavee.vercel.app/)
 2. If the CORS problem is presented, I suggest installing the [Allow CORS](https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=th) extension.
+3. If you can't open the website for Google Chrome security reasons, I suggest using CloudFlare as a DNS.
