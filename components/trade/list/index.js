@@ -30,7 +30,7 @@ const RecentTrade = ({ coinData }) => {
         fetchTradeData()
     }, [tradeList.length])
 
-    console.log(tradeList?.result);
+    // console.log(tradeList?.result);
 
     return (
         <div className={styles['trade-list-container']}>

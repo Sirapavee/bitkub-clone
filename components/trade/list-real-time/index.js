@@ -22,7 +22,6 @@ const TradeListRealTime = ({ coinData }) => {
         }
 
         setTradeDataList(tradeDataList)
-        console.log('new list: ', tradeDataList)
 
         // force re-render
         forceUpdate()
@@ -41,7 +40,7 @@ const TradeListRealTime = ({ coinData }) => {
         }
   }, [])
 
-  console.log('trad list: ', tradeDataList)
+//   console.log('trad list: ', tradeDataList)
 
   return (
     <div className={styles['rt-trade-container']}>

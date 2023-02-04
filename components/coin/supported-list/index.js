@@ -29,7 +29,7 @@ const SupportedCoins = ({ pageRef }) => {
 
     const pageWidth = pageRef?.current?.getBoundingClientRect()?.width || 0
     const coinData = extractCoinData(coinList?.result)
-    console.log(coinList?.result)
+    // console.log(coinList?.result)
 
 
     return (
