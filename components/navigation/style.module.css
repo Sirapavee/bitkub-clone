@@ -1,0 +1,30 @@
+.nav-bar-wrapper {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    padding: 8px 16px;
+    background-color: darkcyan;
+    color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.nav-bar-item {
+    height: fit-content;
+}
+
+.nav-bar-item-current {
+    height: fit-content;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .nav-bar-wrapper {
+        justify-content: center;
+    }
+}

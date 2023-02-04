@@ -1,0 +1,14 @@
+.title {
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+}
+
+.top-bar {
+    height: fit-content;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}

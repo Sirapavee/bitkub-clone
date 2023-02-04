@@ -1,0 +1,54 @@
+.rt-trade-container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 40px;
+}
+
+.rt-trade-wrapper {
+    width: 100%;
+    padding: 0 8px 8px 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-table-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: initial;
+    text-align: left;
+}
+
+.id-head {
+    color: white;
+    font-weight: initial;
+    width: 34%;
+    word-break: break-all;
+}
+
+.rate-head {
+    color: white;
+    font-weight: initial;
+    width: 33%;
+}
+
+.amount-head {
+    color: white;
+    font-weight: initial;
+    width: 33%;
+}
+
+@media (max-width: 425px) {
+    .rt-trade-wrapper {
+        width: 100%;
+        padding: 0 8px 8px 8px;
+        display: flex;
+        flex-direction: column;
+    }
+}

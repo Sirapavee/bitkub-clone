@@ -1,0 +1,44 @@
+.trade-wrapper {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 4px 0;
+    gap: 4px;
+
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.time-notice {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: initial;
+    width: 34%;
+}
+
+.time-green {
+    color: #34eb89;
+    font-weight: initial;
+}
+
+.time-red {
+    color: #eb4934;
+    font-weight: initial;
+}
+
+.rate-cell {
+    color: white;
+    font-weight: initial;
+    width: 33%;
+}
+
+.amount-cell {
+    color: white;
+    font-weight: initial;
+    width: 33%;
+}

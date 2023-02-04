@@ -1,0 +1,32 @@
+.rt-trade-wrapper {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 4px 0;
+    gap: 4px;
+
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.txn-cell {
+    color: darkgray;
+    font-weight: initial;
+    width: 34%;
+    word-break: break-all;
+}
+
+.rate-cell {
+    color: white;
+    font-weight: initial;
+    width: 33%;
+}
+
+.amount-cell {
+    color: white;
+    font-weight: initial;
+    width: 33%;
+}
